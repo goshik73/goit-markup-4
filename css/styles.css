@@ -145,17 +145,8 @@ img {
 .icon-envelop,
 .icon-phone {
   margin-right: 10px;
-  fill: var(--secondary-text-color);
+  fill: currentColor;
 }
-.icon-envelop:hover,
-.icon-envelop:focus {
-  fill: var(--accent-color);
-}
-.icon-phone:hover,
-.icon-phone:focus {
-  fill: var(--accent-color);
-}
-
 .nav-list .item:not(:last-child) {
   margin-right: 50px;
 }
